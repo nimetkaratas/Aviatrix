@@ -10,7 +10,7 @@ import Foundation
 
 class Aviatrix {
     var author = "Nimet"
-    var location = ""
+    var location = "St. Louis"
     var data = AviatrixData()
     
     init(authorName: String){
@@ -28,7 +28,7 @@ class Aviatrix {
     }
     
     func flyTo(destination : String) {
-        
+        location = destination
     }
     
     func distanceTo(target : String) -> [Int] {
